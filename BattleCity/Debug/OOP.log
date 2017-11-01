@@ -1,0 +1,48 @@
+﻿E:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (OOP.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Tank.cpp
+  Map.cpp
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\map.cpp(45): warning C4309: '=': truncation of constant value
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\map.cpp(85): warning C4309: '=': truncation of constant value
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\map.cpp(437): warning C4309: '=': truncation of constant value
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\map.cpp(476): warning C4309: '=': truncation of constant value
+  Main.cpp
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\bonus.h(34): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\collision.h(704): warning C4018: '<': signed/unsigned mismatch
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\main.cpp(7): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\array.h(172): warning C4018: '<': signed/unsigned mismatch
+  c:\users\yan\downloads\oop_v7_1\oop\battlecity\array.h(170): note: while compiling class template member function 'void Array<Tank *>::add(T)'
+          with
+          [
+              T=Tank *
+          ]
+  c:\users\yan\downloads\oop_v7_1\oop\battlecity\game.h(432): note: see reference to function template instantiation 'void Array<Tank *>::add(T)' being compiled
+          with
+          [
+              T=Tank *
+          ]
+  c:\users\yan\downloads\oop_v7_1\oop\battlecity\collision.h(255): note: see reference to class template instantiation 'Array<Tank *>' being compiled
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\array.h(190): warning C4018: '<': signed/unsigned mismatch
+  c:\users\yan\downloads\oop_v7_1\oop\battlecity\array.h(183): note: while compiling class template member function 'void Array<Tank *>::removeOnIndex(int)'
+  c:\users\yan\downloads\oop_v7_1\oop\battlecity\game.h(207): note: see reference to function template instantiation 'void Array<Tank *>::removeOnIndex(int)' being compiled
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\array.h(194): warning C4018: '<': signed/unsigned mismatch
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\array.h(154): warning C4018: '<': signed/unsigned mismatch
+  c:\users\yan\downloads\oop_v7_1\oop\battlecity\array.h(151): note: while compiling class template member function 'void Array<bullet *>::copy(const Array<bullet *> &)'
+  c:\users\yan\downloads\oop_v7_1\oop\battlecity\array.h(82): note: see reference to function template instantiation 'void Array<bullet *>::copy(const Array<bullet *> &)' being compiled
+  c:\users\yan\downloads\oop_v7_1\oop\battlecity\array.h(76): note: while compiling class template member function 'Array<bullet *>::~Array(void)'
+  c:\users\yan\downloads\oop_v7_1\oop\battlecity\collision.h(703): note: see reference to function template instantiation 'Array<bullet *>::~Array(void)' being compiled
+  Instruments.cpp
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\instruments.cpp(10): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+  Bullet.cpp
+  Generating Code...
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\collision.h(72): warning C4715: 'Collision::PlayerOnBlock': not all control paths return a value
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\collision.h(126): warning C4715: 'Collision::BulletOnBlock': not all control paths return a value
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\collision.h(598): warning C4715: 'Collision::TankOnBlock': not all control paths return a value
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\collision.h(264): warning C4715: 'Collision::enterTankOnArrTank': not all control paths return a value
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\map.cpp(324): warning C4715: 'Map::destroy': not all control paths return a value
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\tank.cpp(591): warning C4715: 'EazyTank::Shoot': not all control paths return a value
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\tank.cpp(845): warning C4715: 'ShooterTank::Shoot': not all control paths return a value
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\tank.cpp(952): warning C4715: 'DoubleShooterTank::Shoot': not all control paths return a value
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\tank.cpp(993): warning C4715: 'SpeedTank::Shoot': not all control paths return a value
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\tank.cpp(1159): warning C4715: 'ArmorTank::Shoot': not all control paths return a value
+c:\users\yan\downloads\oop_v7_1\oop\battlecity\tank.cpp(1328): warning C4715: 'SuperPowerTank::Shoot': not all control paths return a value
+  OOP.vcxproj -> C:\Users\Yan\Downloads\OOP_v7_1\OOP\BattleCity\Debug\BattleCity.exe
